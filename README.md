@@ -1,14 +1,21 @@
-# AI Predictive Modeling Project
+# Customer Satisfaction Prediction Model 🚀
 
-## Description
-Developed a foundational machine learning model focused on predictive analytics. This project involved mastering data preprocessing, feature engineering, and the implementation of regression algorithms to forecast future data trends.
+This project implements a **Machine Learning Classification Pipeline** to predict customer satisfaction levels based on e-commerce shipping and product data.
 
-## Tools used:
-- **Language:** Python
-- **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib.
+## 📊 Project Overview
+The goal is to classify customers into three categories: **Unhappy, Neutral, and Very Good**, based on features like cost, shipping mode, and discounts offered.
 
-## How it works:
-1. Data Cleaning and Preprocessing.
-2. Feature Selection.
-3. Model Training using Regression algorithms.
-4. Performance Evaluation.
+## 🛠️ Technical Features:
+- **Feature Engineering:** Transformed raw customer ratings into meaningful satisfaction categories.
+- **Automated Pipeline:** Utilized `ColumnTransformer` and `Pipeline` for a seamless flow of data from preprocessing to prediction.
+- **Data Preprocessing:** 
+    - Scaled numerical features using `StandardScaler`.
+    - Encoded categorical variables using `OneHotEncoder`.
+- **Handling Imbalanced Data:** Implemented **SMOTE** (Synthetic Minority Over-sampling Technique) to ensure the model learns fairly from all classes.
+- **Hyperparameter Tuning:** Optimized the **Logistic Regression** model using `GridSearchCV` with 5-fold cross-validation.
+
+## 🧪 Tools & Libraries:
+- **Python** (Core Programming)
+- **Pandas** (Data Manipulation)
+- **Scikit-learn** (Machine Learning & Pipelines)
+- **Imbalanced-learn** (SMOTE for class balancing)
