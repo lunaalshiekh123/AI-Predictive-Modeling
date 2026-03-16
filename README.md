@@ -1,21 +1,16 @@
-# Customer Satisfaction Prediction Model 🚀
+# 🏠 AI Predictive Modeling (Chapter 1)
 
-This project implements a **Machine Learning Classification Pipeline** to predict customer satisfaction levels based on e-commerce shipping and product data.
+This project demonstrates the fundamentals of **Numerical Forecasting** using Machine Learning.
 
-## 📊 Project Overview
-The goal is to classify customers into three categories: **Unhappy, Neutral, and Very Good**, based on features like cost, shipping mode, and discounts offered.
+## 🚀 Project Overview
+The goal is to predict house prices based on square footage using the **Linear Regression** algorithm. This project covers the essential workflow of Predictive Modeling, including data splitting, model training, and performance evaluation.
 
-## 🛠️ Technical Features:
-- **Feature Engineering:** Transformed raw customer ratings into meaningful satisfaction categories.
-- **Automated Pipeline:** Utilized `ColumnTransformer` and `Pipeline` for a seamless flow of data from preprocessing to prediction.
-- **Data Preprocessing:** 
-    - Scaled numerical features using `StandardScaler`.
-    - Encoded categorical variables using `OneHotEncoder`.
-- **Handling Imbalanced Data:** Implemented **SMOTE** (Synthetic Minority Over-sampling Technique) to ensure the model learns fairly from all classes.
-- **Hyperparameter Tuning:** Optimized the **Logistic Regression** model using `GridSearchCV` with 5-fold cross-validation.
+## 🛠️ Tech Stack:
+- **Python**
+- **Scikit-learn** (Linear Regression)
+- **Matplotlib** (Visualization)
+- **Pandas** (Data Formatting)
 
-## 🧪 Tools & Libraries:
-- **Python** (Core Programming)
-- **Pandas** (Data Manipulation)
-- **Scikit-learn** (Machine Learning & Pipelines)
-- **Imbalanced-learn** (SMOTE for class balancing)
+## 📈 Performance Metrics:
+- High R-squared score indicating reliable price forecasting.
+- Visual representation through a regression line analysis.
